@@ -1021,7 +1021,6 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
 }
 
 .contact .info i {
@@ -1159,7 +1158,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: #f7f8f9;
-  color: #f2f3f5;
+  color: #000308;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
@@ -1175,6 +1174,7 @@ section {
 }
 
 #footer p {
+  color: #000308;
   font-size: 15;
   font-style: italic;
   padding: 0;
@@ -1189,7 +1189,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #4d95e1;
-  color: #fff;
+  color: #000308;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1202,7 +1202,7 @@ section {
 
 #footer .social-links a:hover {
   background: #0678e3;
-  color: #fff;
+  color: #000308;
   text-decoration: none;
 }
 
