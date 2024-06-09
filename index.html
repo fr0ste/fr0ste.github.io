@@ -11,10 +11,11 @@
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon" />
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
 
     <!-- Google Fonts -->
     <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i"
       rel="stylesheet"
     />
 
@@ -70,11 +71,11 @@
               ><i class="bx bx-file-blank"></i> <span>CV</span></a
             >
           </li>
-          <li>
+          <!-- <li>
             <a href="#portfolio" class="nav-link scrollto"
               ><i class="bx bx-book-content"></i> <span>Portfolio</span></a
             >
-          </li>
+          </li> -->
           <li>
             <a href="#contact" class="nav-link scrollto"
               ><i class="bx bx-envelope"></i> <span>Contacto</span></a
@@ -241,8 +242,7 @@
                   <em
                     >Desarrollador backend con experiencia en desarrollo de APIs
                     REST, despliegue de aplicaciones, gestión de servidores,
-                    diseño de base de datos, programación pl/sql, entre
-                    otros.</em
+                    diseño de base de datos, programación pl/sql.</em
                   >
                 </p>
                 <ul>
@@ -282,14 +282,62 @@
                 <h4>Desarrollador Backend</h4>
                 <h5>Julio 2023 - Septiembre 2023</h5>
                 <p><em>Sys Technology and Innovation S de RL de CV.</em></p>
-                <p>
-                  En mi rol de desarrollador backend, he participado en el
-                  desarrollo de una API REST desde su concepción hasta su
-                  lanzamiento, colaborando estrechamente con el equipo de
-                  front-end para garantizar una integración fluida, además, he
-                  implementado soluciones innovadoras para optimizar el
-                  rendimiento y la seguridad de la aplicación.
-                </p>
+                <ul>
+                 <li>Implementéuna arquitectura de REST API usando Grails desde su concepción hasta su lanzamiento, colaborando
+                  estrechamente con el equipo de front-end para garantizar una integración fluida, además, he implementado
+                  soluciones innovadoras para optimizar el rendimiento.</li>
+                 <li>Se realizó la automatización para la interpretación de datos cualitativos y cuantitativos para una institución de
+                  gobierno, transformando los datos en crudo a datos estadísticos (presentados en gréficos estadísticos en el
+                  FrontEnd).</li>
+                 <li>Implementé un algoritmo para realizar inserciones por lotes de los datos en crudo, a la base de datos desde un excel
+                  proporcionado por el usuario (sujeto a sus requerimientos).</li>
+                 <li><strong>Stack de Tecnologías</strong>:
+                  <ul class="technologies">
+                    <li><i class="fab fa-groovy"></i>Groovy</li>
+                    <li><i class="fab fa"></i>JPA</li>
+                    <li><i class="fas fa-leaf"></i> Spring Framework</li>
+                    <li><i class="fas fa-database"></i> MySQL</li>
+                    <li><i class="fab fa-docker"></i> Docker</li>
+                    <li class="fab fa-git"></li>
+                    <li class="fab fa-bitbucket">Bitbucket</li>
+                    <li class="fab fa-postman">Postman</li>
+                  </ul>
+                </li>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>Lider de proyectos.</h4>
+                <h5>Actualmente</h5>
+                <p><em>Universidad de la sierra sur (UNSIS).</em></p>
+                <ul>
+                  <li>Lidero y gestiono un proyecto actualmente en desarrollo de una aplicación con enfoque en la gestión de expedientes
+                   clínicos electrónicos (actualmente realizados en papel) para la clínica de odontología ubicada en la Universidad de la
+                   Sierra Sur.</li>
+                  <li>Realicé el proceso de levantamiento de requerimientos y diseño del modelo de datos a partir de ello, tomando como
+                   decisión utilizar una base de datos relacional debido a la forma en que se estructuran los datos de un paciente y al
+                   tipo de transacciones realizadas.</li>
+                  <li>Establecí la arquitectura basada en clean architecture y un modelo basado en capas tanto para el FrontEnd como el
+                   BackEnd.</li>
+                  <li>Implementé el uso de contenedores en el BackEnd por medio de docker y docker compose.</li>
+                  <li>Configuré el CORS y los parámetros de seguridad del backend estableciendo una autenticación basada en tokens
+                   (JWT) y autorización basada en roles.</li>
+                  <li>Configuré las automatizaciones de Jira para una gestión eficiente del proyecto usando modelos ágiles.</li>
+                  <li>Tecnologías usadas: Spring Boot, Spring Security, JPA, Hibernate, Java, Docker, MariaDB, Git, Github, Jira automation.</li>
+                  <li><strong>Stack de Tecnologías</strong>:
+                    <ul class="technologies">
+                      <li><i class="fab fa-java"></i>Java</li>
+                      <li><i class="fab fa"></i>JPA</li>
+                      <li><i class="fas fa-leaf"></i> Spring Framework</li>
+                      <li><i class="fas fa-lock"></i> Spring Security</li>
+                      <li><i class="fas fa-database"></i> MariaDB</li>
+                      <li><i class="fab fa-docker"></i> Docker</li>
+                      <li class="fab fa-git"></li>
+                      <li class="fab fa-github">Github</li>
+                      <li class="fab fa-jira">Jira</li>
+                      <li class="fab fa-postman">Postman</li>
+                    </ul>
+                  </li>
+                </ul>
               </div>
               <div class="resume-item">
                 <h4>Programación web.</h4>
@@ -300,17 +348,26 @@
                   una aplicación web para el manejo de clubs que se imparten en la universidad, desde el diseño
                   inicial hasta la implementación final.
                 </p>
-              </div>
-              <div class="resume-item">
-                <h4>Lider de proyectos.</h4>
-                <h5>Actualmente</h5>
-                <p><em>Universidad de la sierra sur (UNSIS).</em></p>
+
                 <ul>
-                  <li>
-                    Participo liderando el desarrollo de una aplicación con enfoque en la gestión de expedientes clínicos electrónicos para la clínica de odontología ubicada en la Universidad.
-                  </li>
-                  <li>
-                    Se ha diseñado la aplicación web y el modelo de datos, los cuales se encuentran actualmente en implementación y desarrollo.
+                  <li>Desarrollé una aplicación web junto con un equipo para la gestión de los clubs que se imparten en la Universidad de
+                   la Sierra Sur, proporcionando el código fuente a la Universidad como propuesta a implementar dentro de la
+                   institución.</li>
+                  <li>Desarrollé y diseñé el modelo de datos.</li>
+                  <li>Implementé el uso de middlewares en Laravel para una autorización basada en roles.</li>
+                  <li><strong>Stack de Tecnologías</strong>:
+                    <ul class="technologies">
+                      <li><i class="fab fa-laravel"></i>Laravel</li>
+                      <li><i class="fab fa-php"></i>PHP</li>
+                      <li><i class="fas fa-composer"></i> Composer</li>
+                      <li><i class="fas fa-artisan"></i> Artisan</li>
+                      <li class="fab fa-eloquent">Eloquent</li>
+                      <li><i class="fas fa-database"></i> MySQL</li>
+                      <li><i class="fab fa-docker"></i> Docker</li>
+                      <li class="fab fa-git"></li>
+                      <li class="fab fa-github">Github</li>
+                      <li class="fab fa-postman">Postman</li>
+                    </ul>
                   </li>
                 </ul>
               </div>
@@ -353,84 +410,58 @@
       </section>
       <!-- End Resume Section -->
 
-      <!-- ======= Portfolio Section ======= -->
-<!--       
-      <section id="portfolio" class="portfolio section-bg">
+      <!-- <section id="portfolio" class="portfolio section-bg">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
             <h2>Portfolio</h2>
-            <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
-            </p>
           </div>
 
-          <div
-            class="row portfolio-container"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <!-- Tarjeta del Proyecto 1 -->
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item">
               <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-1.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="/assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="Proyecto 1">
                 <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>App</p>
+                  <h4>Proyecto 1</h4>
+                  <p>Descripción breve del proyecto 1</p>
                   <div class="portfolio-links">
-                    <a
-                      href="assets/img/portfolio/portfolio-1.jpg"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="App 1"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a
-                      href="portfolio-details.html"
-                      class="portfolio-details-lightbox"
-                      data-glightbox="type: external"
-                      title="Portfolio Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
+                    <a href="/assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Proyecto 1"><i class="bx bx-plus"></i></a>
+                    <a href="/portfolio-details.html" title="Más Detalles"><i class="bx bx-link"></i></a>
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <!-- Tarjeta del Proyecto 2 -->
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item">
               <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-2.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="/assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="Proyecto 2">
                 <div class="portfolio-info">
-                  <h4>Web 3</h4>
-                  <p>Web</p>
+                  <h4>Proyecto 2</h4>
+                  <p>Descripción breve del proyecto 2</p>
                   <div class="portfolio-links">
-                    <a
-                      href="assets/img/portfolio/portfolio-2.jpg"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="Web 3"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a
-                      href="portfolio-details.html"
-                      class="portfolio-details-lightbox"
-                      data-glightbox="type: external"
-                      title="Portfolio Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
+                    <a href="/assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Proyecto 2"><i class="bx bx-plus"></i></a>
+                    <a href="/portfolio-details.html" title="Más Detalles"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+
+            <!-- Tarjeta del Proyecto 3 -->
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="/assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="Proyecto 3">
+                <div class="portfolio-info">
+                  <h4>Proyecto 3</h4>
+                  <p>Descripción breve del proyecto 3</p>
+                  <div class="portfolio-links">
+                    <a href="/assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Proyecto 3"><i class="bx bx-plus"></i></a>
+                    <a href="/portfolio-details.html" title="Más Detalles"><i class="bx bx-link"></i></a>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
         </div>
       </section> -->
       <!-- End Portfolio Section -->
@@ -515,7 +546,6 @@
     <script src="assets/vendor/typed.js/typed.umd.js"></script>
     <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
-
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
   </body>
