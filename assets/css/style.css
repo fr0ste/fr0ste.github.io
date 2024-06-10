@@ -135,7 +135,7 @@ p, li{
 @media (max-width: 991px) {
   #header {
     width: 300px;
-    background: #fff;
+    background: #000308;
     border-right: 1px solid #e6e9ec;
     left: -300px;
   }
@@ -194,7 +194,7 @@ p, li{
 .nav-menu a span,
 .nav-menu a:focus span {
   padding: 0 5px 0 7px;
-  color: #f2f3f5;
+  color: #4d95e1;
 }
 
 @media (min-width: 992px) {
